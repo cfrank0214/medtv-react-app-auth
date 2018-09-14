@@ -9,7 +9,7 @@ The goal of this capstone is to create a web-based experience  for users to see 
 
 * Clone this repo
 ```
-git clone git@github.com:djmorosini/medtv-react-app.git
+git clone git@github.com:cfrank1977/medtv-react-app-auth.git
 ```
 
 ### Prerequisites
