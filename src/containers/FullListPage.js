@@ -1,8 +1,6 @@
 import React, { Component, Fragment } from 'react';
-import TheNavbar from '../Components/TheNavbar';
-import Sidebar from '../Components/Sidebar'
-import TheFooter from '../Components/TheFooter';
-import VideoStore from '../Components/VideoStore';
+import Sidebar from '../components/Sidebar'
+import VideoStore from '../components/VideoStore';
 
 class FullListPage extends Component {
 
@@ -15,10 +13,8 @@ class FullListPage extends Component {
 
     return (
       <Fragment>
-        <TheNavbar />
         <Sidebar />
         <VideoStore props={this.props} />
-        <TheFooter />
       </Fragment>
     );
 

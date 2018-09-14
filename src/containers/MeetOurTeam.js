@@ -1,7 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import TheNavbar from '../Components/TheNavbar';
-import TheFooter from '../Components/TheFooter';
-import Media from '../Components/Media';
+import Media from '../components/Media';
 
 class MeetOurTeam extends Component {
 
@@ -13,9 +11,7 @@ class MeetOurTeam extends Component {
 
     return (
       <Fragment>
-        <TheNavbar />
         <Media />
-        <TheFooter />
       </Fragment>
     );
   }

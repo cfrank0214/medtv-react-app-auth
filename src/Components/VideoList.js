@@ -23,13 +23,13 @@ class VideoList extends React.Component {
                         tag="div"
                         key={video.videoId}
                     >
-                        <Link to={`/video/${video.videoId}`} params={{ id: video.videoId }} onClick={() => this.updaterFunction(video)}>
+                        <Link to={`/video/${video.videoId}`} params={{ videoId: video.videoId }} onClick={() => this.updaterFunction(video)}>
                             <CardImg width="100%" src={video.vid_thumbnail_uri} alt="Video thumbnail"
                                 height={200}
                             />
                         </Link>
                         <CardBody>
-                            <Link to={`/video/${video.videoId}`} params={{ id: video.VideoId }} onClick={() => this.updaterFunction(video)}>
+                            <Link to={`/video/${video.videoId}`} params={{ videoId: video.VideoId }} onClick={() => this.updaterFunction(video)}>
                                 <CardTitle>{video.title}</CardTitle>
                             </Link>
                             <CardText>{video.description}</CardText>
@@ -67,13 +67,13 @@ class VideoList extends React.Component {
                         tag="div"
                         key={video.videoId}
                     >
-                        <Link to={`/video/${video.videoId}`} params={{ id: video.videoId }} onClick={() => this.updaterFunction(video)}>
+                        <Link to={`/video/${video.videoId}`} params={{ videoId: video.videoId }} onClick={() => this.updaterFunction(video)}>
                             <CardImg width="100%" src={video.vid_thumbnail_uri} alt="Video thumbnail"
                                 height={200}
                             />
                         </Link>
                         <CardBody>
-                            <Link to={`/video/${video.videoId}`} params={{ id: video.videoId }} onClick={() => this.updaterFunction(video)}>
+                            <Link to={`/video/${video.videoId}`} params={{ videoId: video.videoId }} onClick={() => this.updaterFunction(video)}>
                                 <CardTitle>{video.title}</CardTitle>
                             </Link>
                             <CardText>{video.description}</CardText>

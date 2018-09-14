@@ -24,11 +24,11 @@ class TrendingVideos extends React.Component {
                 return (
                     <Card className='trending-card flex-wrap d-flex col-lg-4 col-md-5 col-sm-12'
                         tag="div"
-                        key={video.id}
+                        key={video.videoId}
                     >
-                        <Link to={`/video/${video.id}`} params={{ id: video.id }} onClick={() => this.updaterFunction(video)}><CardImg top width="100%" height={200} src={video.vid_thumbnail_uri} alt="Video thumbnail" /></Link>
+                        <Link to={`/video/${video.videoId}`} params={{ videoId: video.videoId }} onClick={() => this.updaterFunction(video)}><CardImg top width="100%" height={200} src={video.vid_thumbnail_uri} alt="Video thumbnail" /></Link>
                         <CardBody>
-                            <Link to={`/video/${video.id}`} params={{ id: video.id }} onClick={() => this.updaterFunction(video)}><CardTitle>{video.title}</CardTitle></Link>
+                            <Link to={`/video/${video.videoId}`} params={{ videoId: video.videoId }} onClick={() => this.updaterFunction(video)}><CardTitle>{video.title}</CardTitle></Link>
                             <CardText>{video.description}</CardText>
                         </CardBody>
                     </Card>

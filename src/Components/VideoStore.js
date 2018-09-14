@@ -70,7 +70,7 @@ class VideoStore extends React.Component {
                 });
     }
 
-    updateActiveVideo(video)  {
+    updateActiveVideo(video) {
         localStorage.setItem('activeVideo', `${JSON.stringify(video)}`)
         this.setState({ activeVideo: video })
     }
@@ -86,7 +86,6 @@ class VideoStore extends React.Component {
             // localStorage.clear()
             activeVideo = JSON.parse(`${localStorage.getItem('activeVideo')}`)
         }
-
 
         if (!videos) {
             return <div>Loading...</div>
@@ -122,6 +121,7 @@ class VideoStore extends React.Component {
         }
     }
 }
+
 
 export default VideoStore;
 

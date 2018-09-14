@@ -50,14 +50,14 @@ class Team extends React.Component {
       return (
         <Media key={member.name}>
           <Media left top >
-            <Link to={`/meet-our-team/${member.name}`} params={{ name: member.name }}>
+            <Link to={`/team/${member.name}`} params={{ name: member.name }}>
               <div><Media object src={member.src} /></div>
             </Link>
           </Media>
 
           <Media body>
             <Media heading>
-              <Link className="memberName" to={`/meet-our-team/${member.name}`} params={{ name: member.name }}>
+              <Link className="memberName" to={`/team/${member.name}`} params={{ name: member.name }}>
                 {member.name}</Link>
             </Media>
             {member.shortbio}

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Form, FormGroup, Input, Label } from "reactstrap";
 import { Auth } from "aws-amplify";
-import LoaderButton from "../Components/LoaderButton";
+import LoaderButton from "../components/LoaderButton";
+import './Login.css'
 
 export default class Login extends Component {
   constructor(props) {

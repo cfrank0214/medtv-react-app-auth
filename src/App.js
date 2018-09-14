@@ -15,10 +15,12 @@ import {
 } from 'reactstrap';
 import { Auth } from 'aws-amplify';
 import { Link, NavLink } from 'react-router-dom'
-import Picture from '../images/logo_transparent_small(1).png'
+import Picture from './images/logo_transparent_small(1).png'
+import Routes from "./Routes"
+import TheFooter from './components/TheFooter';
 
 
-export default class TheNavbar extends React.Component {
+export default class App extends React.Component {
 
   constructor(props) {
     super(props);
@@ -149,6 +151,8 @@ export default class TheNavbar extends React.Component {
             </Collapse>
           </Container>
         </Navbar>
+        <Routes childProps={childProps} />
+        <TheFooter />
       </div>
     );
   }

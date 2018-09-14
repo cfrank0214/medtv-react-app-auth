@@ -7,8 +7,8 @@ import {
   Label
 } from "reactstrap";
 import { Auth } from "aws-amplify";
-import LoaderButton from "../Components/LoaderButton";
-
+import LoaderButton from "../components/LoaderButton";
+import './Signup.css'
 
 export default class Signup extends Component {
   constructor(props) {

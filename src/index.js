@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom'
 import ReactDOM from 'react-dom';
 import Amplify from "aws-amplify";
 import config from "./config";
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-import Routes from './Routes';
+import App from './App';
 
 Amplify.configure({
   Auth: {
@@ -32,7 +33,9 @@ Amplify.configure({
 });
 
 ReactDOM.render(
-  <Routes />,
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
 
   document.getElementById('root')
 );
