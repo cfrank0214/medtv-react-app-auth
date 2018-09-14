@@ -53,22 +53,9 @@ class VideoStore extends React.Component {
         return API.get("videos", "/videos");
     }
 
-    getVideosByTags = () => {
-        return fetch(`https://n1mr20dqxh.execute-api.us-east-2.amazonaws.com/qa/videos${this.props.props.location.search}`)
-            .then((response) => { return response.json() })
-            .then((data) => {
-                this.setState({
-                    fetchedVideo: data,
-                    searchParam: this.props.props.location.search
-                })
-                return data;
-            },
-                error => {
-                    this.setState({
-                        error: error
-                    });
-                });
-    }
+    getVideosByTags() {
+		return API.get("videos", `/videos/${this.props.props.location.search}`);
+	  }
 
     updateActiveVideo(video) {
         localStorage.setItem('activeVideo', `${JSON.stringify(video)}`)
