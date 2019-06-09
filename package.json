@@ -5,7 +5,7 @@
   "dependencies": {
     "@types/react": "^16.4.9",
     "aws-amplify": "^1.0.8",
-    "aws-sdk": "^2.288.0",
+    "aws-sdk": "^2.471.0",
     "bootstrap": "^4.3.1",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
