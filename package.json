@@ -7,7 +7,7 @@
     "aws-amplify": "^1.1.40",
     "aws-sdk": "^2.520.0",
     "bootstrap": "^4.3.1",
-    "react": "^16.9.0",
+    "react": "^16.10.1",
     "react-dom": "^16.9.0",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.2",
