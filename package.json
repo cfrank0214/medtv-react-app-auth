@@ -8,7 +8,7 @@
     "aws-sdk": "^2.545.0",
     "bootstrap": "^4.3.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2",
+    "react-dom": "^16.11.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
     "react-vr-player": "^0.1.1",
