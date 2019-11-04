@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@types/react": "^16.9.11",
-    "aws-amplify": "^1.2.3",
+    "aws-amplify": "^1.2.4",
     "aws-sdk": "^2.563.0",
     "bootstrap": "^4.3.1",
     "react": "^16.11.0",
