@@ -6,7 +6,7 @@
     "@types/react": "^16.9.19",
     "aws-amplify": "^2.2.1",
     "aws-sdk": "^2.610.0",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^4.5.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-router-dom": "^5.1.2",
